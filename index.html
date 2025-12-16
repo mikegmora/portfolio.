@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,86 +8,110 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nabla&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="Michael Mora Profile.png">
-    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nabla&family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nabla&family=Playwrite+NO:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
 
-<div>
- <button
-            class="menu-button"
-            id="menuToggle"
-            aria-controls="mainNav"
-            aria-expanded="false"
+    <div>
+        <button class="menu-button" id="menuToggle" aria-controls="mainNav" aria-expanded="false"
             aria-label="Toggle menu">
             <span class="menu-icon"></span>
-</button>
+        </button>
 
-    <nav class="nav-links" id="mainNav" aria-hidden="true">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About Me</a></li>
-        </ul>
-    </nav>
-</div>
+        <nav class="nav-links" id="mainNav" aria-hidden="true">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
 
-<section class="header">
-    <header>
-        <h1>Michael Mora</h1>
-        <p id="h1">Welcome to my portfolio website.</p>
-        
-        <div class="image-row">
-            
-            <img src="Professional Picture Michael Mora.jpeg" alt="Professional Picture of Michael Mora" class="home-image">
-            <img src="MikeGMora Cartoon.png" alt="Michael Mora In A Cartoon Image" class="home-image">
-            <img src="Michael.jpg" alt="Michael looking away from the camera" class="home-image">
+    <section class="header">
+        <header>
+            <h1>Michael Mora</h1>
+            <p id="h1">Welcome to my portfolio website.</p>
+
+            <div class="image-row">
+
+                <img src="Professional Picture Michael Mora.jpeg" alt="Professional Picture of Michael Mora"
+                    class="home-image">
+                <img src="MikeGMora Cartoon.png" alt="Michael Mora In A Cartoon Image" class="home-image">
+                <img src="Michael.jpg" alt="Michael looking away from the camera" class="home-image">
+            </div>
+        </header>
+    </section>
+    <hr>
+
+    <section class="section-row">
+        <div class="column skills-column">
+            <h2><i class="fa-solid fa-briefcase"></i> Skills</h2>
+            <ul class="styled-list">
+                <li>Proficient in HTML, CSS, and JavaScript for web development.</li>
+                <li>Experience with responsive design and cross-browser compatibility.</li>
+                <li>Familiarity with version control systems like Git/GitHub.</li>
+                <li>Strong problem-solving and debugging skills.</li>
+                <li>Time management / Bilingual: English and Spanish fluency.</li>
+                <li>Wireframing and basic UI elements</li>
+            </ul>
         </div>
-    </header>
-</section>
-<hr>
 
-<section class="intro">
-    <h2>Skills</h2>
-    <ul>
-        <li>Proficient in HTML, CSS, and JavaScript for web development.</li>
-        <li>Experience with responsive design and cross-browser compatibility.</li>
-        <li>Familiarity with version control systems like Git/GitHub.</li>
-        <li>Strong problem-solving and debugging skills.</li>
-        <li>Time management / Bilingual: English and Spanish fluency.</li>
-        <li>Wireframing and basic UI elements</li>
-    </ul>
+        <div class="column cert-column">
+            <h2><i class="fa-solid fa-id-card"></i> Certifications</h2>
+            <ul class="styled-list">
+                <li>Responsive Web Design Certification - freeCodeCamp</li>
+                <li>Excel Expert - Microsoft</li>
+                <li>Complete Web Design Course: HTML, CSS, JavaScript, Vue, React, Git - Udemy</li>
+                <li>Introduction to HTML and CSS - LinkedIn Learning</li>
+                <li>JavaScript Basics - Coursera</li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <section class="section-row">
+        <div class="column services-column">
+            <h2><i class="fa-solid fa-screwdriver-wrench"></i> Services</h2>
+            <div class="service-item">
+                <div class="service-box webdev-box"></div>
+                <p>Web Development</p>
+            </div>
+            <div class="service-item">
+                <div class="service-box wireframe-box"></div>
+                <p>UI/UX Wireframing</p>
+            </div>
+        </div>
 
-    <h2>Certifications</h2>
-    <ul>
-        <li>Responsive Web Design Certification - freeCodeCamp</li>
-        <li>Excel Expert - Microsoft</li>
-        <li>Complete Web Design Course: HTML, CSS, JavaScript, Vue, React, Git - Udemy</li>
-        <li>Introduction to HTML and CSS - LinkedIn Learning</li>
-        <li>JavaScript Basics - Coursera</li>
-    </ul>
-</section>
-<hr>
-<section>
-    <h2>Services</h2>
-    <p>Web Development</p>
-    <p>UI/UX Wireframing</p>
+        <div class="column projects-link-column">
+            <a href="projects.html" class="big-white-box" id="projects-box">
+                <p>Click Here To See My Projects</p>
+            </a>
+        </div>
+    </section>
+    <hr>
+    <section class="section-row Contact-Me">
+        <div class="column contact-column">
+            <h2><i class="fa-solid fa-address-card"></i> Contact Me</h2>
+            <p>Reach me out via email: <a href="mailto:michaelmoranic@gmail.com">michaelmoranic@gmail.com</a></p>
+            <a href="Resume Usa.pdf" class="download-btn" download><i class="fa-solid fa-check"></i>
+                Download Resume </a>
+        </div>
 
-    <a href="projects.html"><p>Click Here To See My Projects.</p>
-</section></a>
-
-<section class="contact">
-    <h2>Contact Me</h2>
-    <p>Reach me out via email: <a href="mailto:michaelmoranic@gmail.com">michaelmoranic@gmail.com</a></p>
-
-    <a href="Resumeusa.pdf" class="download-btn" download> View Resume </a>
-    <a href="about.html"><p>Click here to know About Me</p></a>
-</section>
-
+        <div class="column about-column">
+            <a href="about.html" class="big-white-box" id="about-box">
+                <h2>About Me</h2>
+            </a>
+        </div>
+    </section>
+    <hr class="hr">
 </body>
 
 <script src="script.js" defer></script>
 <footer>
     <p>&copy; 2025 Michael Mora.</p>
 </footer>
+
 </html>

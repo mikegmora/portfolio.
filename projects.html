@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,63 +11,67 @@
 
 <body>
 
-<div>
- <button
-            class="menu-button"
-            id="menuToggle"
-            aria-controls="mainNav"
-            aria-expanded="false"
+    <div>
+        <button class="menu-button" id="menuToggle" aria-controls="mainNav" aria-expanded="false"
             aria-label="Toggle menu">
             <span class="menu-icon"></span>
-</button>
-<section>
-    <nav class="nav-links" id="mainNav" aria-hidden="true">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-        </ul>
-    </nav>
-</div>
+        </button>
+        <section>
+            <nav class="nav-links" id="mainNav" aria-hidden="true">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+            </nav>
+    </div>
 
     <h1 class="header">Projects</h1>
-<a href="https://github.com/mikegmora" target="_blank" rel="noopener noreferrer" class="my-button">
-    Click here to view my GitHub
-</a>
-</section>
-
-<section class="projects-grid">
-   <div class="project-preview">
-    <a href="https://mikegmora.github.io/College-Projectss/"
-       target="_blank"
-       aria-label="Open project in new tab"></a>
-
-    <iframe src="https://mikegmora.github.io/College-Projectss/"
-            loading="lazy"></iframe>
-</div>
-
-    <div class="project-card">
-    <a href="https://reposteriamichaels.wordpress.com/"
-       target="_blank"
-       aria-label="Open Repostería Michaels website">
-       
-        <img src="reposteriamichaels.png"
-             alt="Repostería Michaels WordPress website preview">
+    <a href="https://github.com/mikegmora" target="_blank" rel="noopener noreferrer" class="my-button">
+        Click here to view my GitHub
     </a>
-</div>
+    </section>
 
-  <div class="project-cards">
-    <a href="https://mikegmora.github.io/michaelportfolio/"
-       target="_blank"
-       aria-label="Open first Michaels website project">
-       
-        <img src="projecscreenshot.png"
-             alt="first Michael's website portfolio preview">
-    </a>
-</div>
+    <section class="projects-grid">
+        <div class="project-container">
+            <div class="project-preview">
+                <a href="https://mikegmora.github.io/College-Projectss/" target="_blank"
+                    aria-label="Open project in new tab"></a>
 
+                <iframe src="https://mikegmora.github.io/College-Projectss/" loading="lazy"></iframe>
+            </div>
+            <p class="project-desc">2pac - is a website related to my favorite rapper, it was a class project where I
+                put everything of what I learned from COSW 10 class.</p>
+        </div>
+
+        <div class="project-container">
+            <div class="project-card">
+                <a href="https://reposteriamichaels.wordpress.com/" target="_blank"
+                    aria-label="Open Repostería Michaels website">
+
+                    <img src="reposteriamichaels.png" alt="Repostería Michaels WordPress website preview">
+                </a>
+            </div>
+            <p class="project-desc">Website made for my dad's business of bakery, used WordPress for the first time, and
+                I feel easier to code instead of using WordPress in my opinion.</p>
+        </div>
+
+        <div class="project-container">
+            <div class="project-cards">
+                <a href="https://mikegmora.github.io/michaelportfolio/" target="_blank"
+                    aria-label="Open first Michaels website project">
+
+                    <img src="projecscreenshot.png" alt="first Michael's website portfolio preview">
+                </a>
+            </div>
+            <p class="project-desc">Website created following tutorials from Udemy, Youtube and LinkedIn learning, my
+                first website ever.</p>
+        </div>
+    </section>
+    <hr>
 </body>
 <script src="script.js" defer></script>
 <footer>
     <p>&copy; 2025 Michael Mora.</p>
 </footer>
+
 </html>
